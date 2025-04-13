@@ -1,0 +1,13 @@
+{
+  "name": "AAMONN",
+  "version": "1.0.0",
+  "description": "A WhatsApp bot built by mlbbcommunity.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.18.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
