@@ -1,0 +1,13 @@
+name: AAMON
+services:
+  - name: bot-service
+    type: web
+    runtime: nodejs
+    git:
+      url: https://github.com/mlbbcommunity/AAMONNOFC-FL.git
+      branch: main
+    build:
+      commands:
+        - yarn install
+    run:
+      cmd: yarn start
